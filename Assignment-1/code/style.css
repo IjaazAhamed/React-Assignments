@@ -7,7 +7,7 @@
   .container {
     padding: 5vh;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     row-gap: 5vh;
     width: 100vw;
     height: 100vh;
