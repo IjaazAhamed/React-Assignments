@@ -1,9 +1,11 @@
-import "./App.css";
+import logo from './logo.svg';
+import './App.css';
+
+
 
 function App(props) {
-  const { employee } = props;
-  const { name, location, bloodGroup, age, profileImg } = employee;
-
+ const {employee}=props;
+    
 return(
   <div className="container">
   {/* Start your React code here */}
@@ -15,8 +17,9 @@ return(
   <p className="data">{employee.bloodGroup}</p>
   <p className="info">Age</p>
   <p className="data">{employee.age}</p>
-    </div>
-  );
+
+</div>
+)
 }
 
 
