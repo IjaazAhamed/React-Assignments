@@ -1,15 +1,14 @@
 import React from 'react';
-import './Postview.css';
+import '../App.css';
+import instaCard from '../Mock-data/data.json';
+import Card from '../Component/Card.js';
+import NavBar from '../Component/NavBar.js';
 
-import instaCard from './Mock-data/data.json';
-import Card from './Component/Card';
-import NavBar from './Component/NavBar';
-
-const Postview=()=> {
+const LandingPage=()=> {
   return (
     <div className="site-container">
       <NavBar/>
-      <section>
+      <section className='section1'>
           {instaCard.data.map((person,index) => {
         const {name,location,likes,description,PostImage,date}=person
         return(
@@ -18,9 +17,7 @@ const Postview=()=> {
         })}
       </section>
     </div>
-  );
-}
+    )}
 
-    
 
-export default Postview;
+export default LandingPage;
