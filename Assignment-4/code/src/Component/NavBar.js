@@ -4,10 +4,10 @@ import Inf from '../Images/Logo3.png'
 
 function NavBar() {
   return (
-    <nav className='header'>
+    <nav className='header1'>
         <div>
         <img src= {Logo1} alt="Logo" id="header-firstImage"/>
-        <h1 style={{display:'inline-block'}}>Ijaaz Clone</h1>
+        <h1 style={{display:'inline-block'}}>InstaClone</h1>
         </div>
         <img src={Inf} alt="Camera Icon" id="header-secondImages"/>
     </nav>
